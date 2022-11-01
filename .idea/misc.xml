@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/drawable/circle.xml" value="0.1285" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_cek_email.xml" value="0.33" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_chat_room.xml" value="0.9" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_home_chat.xml" value="0.5" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_profile_pic.xml" value="0.22" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_pulihkan_password.xml" value="0.25" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_settings.xml" value="0.1171875" />
+        <entry key="..\:/Github/NgobrolKuy/app/src/main/res/layout/activity_splash.xml" value="0.11770833333333333" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/circle.xml" value="0.2995" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/gradient_drawable.xml" value="0.268" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/ic_baseline_edit_64.xml" value="0.2995" />

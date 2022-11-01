@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_drawable"
+    android:layout_height="match_parent"
+    tools:context=".CekEmail">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:baselineAligned="false"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:text="Cek Email"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:text="Link reset password telah dikirim."
+        android:textColor="@color/white"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/judul"
+        app:layout_constraintVertical_bias="0.355"
+        app:layout_editor_absoluteY="180dp"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:text="Silakan cek inbox Anda"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/csubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        app:cardCornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+
+        tools:layout_editor_absoluteY="300dp">
+
+        <TextView
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:text="KEMBALI"
+            android:textColor="@color/white"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="360dp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteY="7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

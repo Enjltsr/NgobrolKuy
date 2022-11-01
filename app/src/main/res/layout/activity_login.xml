@@ -63,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+
             android:text="Username"
             android:textSize="12pt"
             android:fontFamily="@font/redhatdisplay_regular"
@@ -75,12 +76,13 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masukkan username Anda"
                 android:textSize="8pt"
+                android:background="@null"
                 android:textColor="@color/light_gray"/>
 
         </androidx.cardview.widget.CardView>
@@ -102,17 +104,19 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masukkan password Anda"
                 android:textSize="8pt"
+                android:background="@null"
                 android:textColor="@color/light_gray"/>
 
         </androidx.cardview.widget.CardView>
 
         <TextView
+            android:id="@+id/lupa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -134,6 +138,7 @@
         android:layout_marginTop="32dp">
 
         <TextView
+            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="LOGIN"
@@ -149,6 +154,7 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/bpa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Belum punya akun?"
